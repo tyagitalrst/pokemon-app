@@ -8,7 +8,7 @@ export const POKEMONS_INITIAL_STATE = {
     next: 2,
   },
   varQueryPokemonList: {
-    limit: 52,
+    limit: 51,
     offset: 0,
   },
   queryPaginationPokemonList: [],
