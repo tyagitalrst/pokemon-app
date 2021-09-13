@@ -1,13 +1,24 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { GET_POKEMON_DETAIL } from "../../service/graphql/pokemon/queries";
 
 import LoadingScreen from "../../components/LoadingScreen";
-import AddPokemonModal from "../../components/pokemon/AddPokemonModal";
+import DetailBreadcrumb from "../../components/pokemon/DetailBreadcrumbs";
+import { makeStyles } from "@material-ui/core/styles";
+import DetailInfo from "../../components/pokemon/DetailInfo";
+
+const useStyles = makeStyles((theme) => ({
+  pokemonDetail: {
+    margin: 20,
+  },
+}));
 
 function PokemonDetail() {
-  const { name } = useParams();
+  const classes = useStyles();
+  const { name, pokemonName } = useParams();
+  const history = useHistory();
+  const isCollectionDetail = history.location.state.fromColletions;
 
   const {
     loading,
@@ -23,10 +34,13 @@ function PokemonDetail() {
   if (error) return <div>Error!</div>;
 
   return (
-    <div className="pokemon-detail">
-      <h1>{`DETAIL-${name}`}</h1>
-      <h3>{pokemon.moves ? pokemon.moves[0].move.name : ""}</h3>
-      <AddPokemonModal pokemon={pokemon}></AddPokemonModal>
+    <div className={classes.pokemonDetail}>
+      <DetailBreadcrumb
+        pokemon={pokemon}
+        pokemonName={pokemonName}
+        collectionDetail={isCollectionDetail}
+      />
+      <DetailInfo pokemon={pokemon} pokemonName={pokemonName} collections={isCollectionDetail} />
     </div>
   );
 }

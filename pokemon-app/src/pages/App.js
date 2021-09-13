@@ -10,16 +10,17 @@ import PokemonList from "./pokemon/PokemonList";
 import PokemonDetail from "./pokemon/PokemonDetail";
 import PokemonCollectionList from "./pokemon/PokemonCollectionList";
 
+
 const App = () => {
   return (
-    <Router>
+    <Router >
       <PokemonProvider>
         <ThemeProvider theme={Theme}>
           <CssBaseline />
           <AppBar></AppBar>
           <Switch>
             <Route exact path="/" component={PokemonList} />
-            <Route path="/detail/:name/:offset/:limit" component={PokemonDetail} />
+            <Route path="/detail/:name/:pokemonName?" component={PokemonDetail} />
             <Route path="/collections" component={PokemonCollectionList} />
           </Switch>
         </ThemeProvider>
