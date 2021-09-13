@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useReactiveVar } from "@apollo/client";
-import { pokemonCollections } from "../../service/graphql/pokemon/reactiveVariable";
-import { startEndNumberList } from "../../service/util";
-import usePagination from "../../providers/pokemon/pagination";
+import { pokemonCollections } from "../../../service/graphql/pokemon/reactiveVariable";
+import { startEndNumberList } from "../../../service/util";
+import usePagination from "../../../providers/pokemon/pagination";
 
-import PokemonCard from "../../components/pokemon/PokemonCard";
-import PokemonHeader from "../../components/pokemon/PokemonHeader";
+import PokemonCard from "../../../components/List/PokemonCard";
+import PokemonHeader from "../../../components/List/PokemonHeader";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core";
 import { Pagination } from "@material-ui/lab";

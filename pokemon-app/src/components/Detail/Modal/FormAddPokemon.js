@@ -1,9 +1,9 @@
 import React, { forwardRef, useState } from "react";
 import { useReactiveVar } from "@apollo/client";
 import { useHistory } from "react-router-dom";
-import { ADD_POKEMON_COLLECTION } from "../../service/graphql/pokemon/mutations";
-import { checkOwnedPokemonName } from "../../service/util/index";
-import { pokemonCollections } from "../../service/graphql/pokemon/reactiveVariable";
+import { ADD_POKEMON_COLLECTION } from "../../../service/graphql/pokemon/mutations";
+import { checkOwnedPokemonName } from "../../../service/util/index";
+import { pokemonCollections } from "../../../service/graphql/pokemon/reactiveVariable";
 
 import { makeStyles } from "@material-ui/core/styles";
 import {

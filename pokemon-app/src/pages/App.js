@@ -5,10 +5,10 @@ import PokemonProvider from "../providers/pokemon/provider";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Theme from "../assets/theme";
-import AppBar from "../components/AppBar";
-import PokemonList from "./pokemon/PokemonList";
-import PokemonDetail from "./pokemon/PokemonDetail";
-import PokemonCollectionList from "./pokemon/PokemonCollectionList";
+import AppBar from "../components/Shared/AppBar";
+import PokemonList from "./List/PokemonList/PokemonList";
+import PokemonDetail from "./Detail/PokemonDetail";
+import PokemonCollectionList from "./List/PokemonCollectionList/PokemonCollectionList";
 
 
 const App = () => {

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import usePagination from "../../providers/pokemon/pagination";
+import usePagination from "../../../providers/pokemon/pagination";
 import { Pagination } from "@material-ui/lab";
-import { startEndNumberList } from "../../service/util";
-import { letterCapitalize } from "../../service/util";
+import { startEndNumberList } from "../../../service/util";
+import { letterCapitalize } from "../../../service/util";
 
 import {
   Paper,

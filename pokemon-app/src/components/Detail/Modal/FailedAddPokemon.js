@@ -1,10 +1,10 @@
 import React, { useState, forwardRef } from "react";
-import { letterCapitalize } from "../../service/util";
+import { letterCapitalize } from "../../../service/util";
 
 import { makeStyles } from "@material-ui/core/styles";
 import { IconButton, Typography } from "@material-ui/core";
 import ClearIcon from "@material-ui/icons/Clear";
-import Pokeball from "../../assets/images/pokeball.png";
+import Pokeball from "../../../assets/images/pokeball.png";
 
 function getModalStyle() {
   const top = 50;

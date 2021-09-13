@@ -3,10 +3,10 @@ import { useParams, useHistory } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { GET_POKEMON_DETAIL } from "../../service/graphql/pokemon/queries";
 
-import LoadingScreen from "../../components/LoadingScreen";
-import DetailBreadcrumb from "../../components/pokemon/DetailBreadcrumbs";
+import LoadingScreen from "../../components/Shared/LoadingScreen";
+import DetailBreadcrumb from "../../components/Detail/DetailBreadcrumbs";
 import { makeStyles } from "@material-ui/core/styles";
-import DetailInfo from "../../components/pokemon/DetailInfo";
+import DetailInfo from "../../components/Detail/DetailInfo";
 
 const useStyles = makeStyles((theme) => ({
   pokemonDetail: {

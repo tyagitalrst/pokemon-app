@@ -2,7 +2,7 @@ import React from "react";
 
 import { Typography, Grid } from "@material-ui/core";
 import DetailOverviewInfo from "./DetailOverviewInfo";
-import DetailTab from "./DetailTab";
+import DetailTab from "./Tab/DetailTab";
 
 function DetailInfo({ pokemon, pokemonName, collections }) {
   return (

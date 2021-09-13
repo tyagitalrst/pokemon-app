@@ -1,5 +1,5 @@
 import React from "react";
-import { letterCapitalize } from "../../service/util";
+import { letterCapitalize } from "../../../service/util";
 
 import { Grid, Typography, LinearProgress } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";

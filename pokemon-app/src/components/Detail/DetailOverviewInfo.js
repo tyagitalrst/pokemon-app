@@ -6,7 +6,7 @@ import TYPE_COLOR from "../../service/constant/type";
 
 import { Paper, Typography, Grid, Chip } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import AddPokemonModal from "./AddPokemonModal";
+import AddPokemonModal from "./Modal/AddPokemonModal";
 
 const useStyles = makeStyles((theme) => ({
   root: {

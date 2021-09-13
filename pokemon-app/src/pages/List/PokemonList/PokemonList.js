@@ -1,15 +1,15 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useQuery } from "@apollo/client";
-import { GET_POKEMON_LIST } from "../../service/graphql/pokemon/queries";
-import { PokemonContext } from "../../providers/pokemon/provider";
+import { GET_POKEMON_LIST } from "../../../service/graphql/pokemon/queries";
+import { PokemonContext } from "../../../providers/pokemon/provider";
 import {
   generateQueryPagination,
   startEndNumberList,
-} from "../../service/util/index";
+} from "../../../service/util/index";
 
-import PokemonCard from "../../components/pokemon/PokemonCard";
-import LoadingScreen from "../../components/LoadingScreen";
-import PokemonHeader from "../../components/pokemon/PokemonHeader";
+import PokemonCard from "../../../components/List/PokemonCard";
+import LoadingScreen from "../../../components/Shared/LoadingScreen";
+import PokemonHeader from "../../../components/List/PokemonHeader";
 import { makeStyles } from "@material-ui/core/styles";
 import { Pagination } from "@material-ui/lab";
 import { Grid, Typography } from "@material-ui/core";
