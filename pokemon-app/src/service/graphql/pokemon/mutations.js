@@ -4,9 +4,9 @@ export function ADD_POKEMON_COLLECTION(pokemonName, data) {
   const collection = [...pokemonCollections()];
   let newCollection = [
     {
-      id: data.id,
+      id: `${data.id}-${pokemonName}`,
       name: data.name,
-      image: "boo",
+      image: data.sprites.front_default,
       pokemonName: pokemonName,
     },
   ];
