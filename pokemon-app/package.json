@@ -2,6 +2,7 @@
   "name": "pokemon-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tyagitalrst.github.io/pokemon-app",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@material-ui/core": "^4.12.3",
