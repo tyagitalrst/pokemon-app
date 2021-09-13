@@ -18,8 +18,15 @@ export const GET_POKEMON_LIST = gql`
 export const GET_POKEMON_DETAIL = gql`
   query pokemon($name: String!) {
     pokemon(name: $name) {
+      message
+      status
       id
       name
+      height
+      weight
+      sprites {
+        front_default
+      }
       abilities {
         ability {
           name
@@ -35,8 +42,13 @@ export const GET_POKEMON_DETAIL = gql`
           name
         }
       }
-      message
-      status
+      stats {
+        base_stat
+        effort
+        stat {
+          name
+        }
+      }
     }
   }
 `;
