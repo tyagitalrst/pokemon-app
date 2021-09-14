@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js Snapshot Test App 1`] = `
+Array [
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h6
+        className="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+      >
+        Pokédex
+      </h6>
+      <a
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+        href="/"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Pokemons
+        </span>
+      </a>
+      <a
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+        href="/collections"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <span
+          className="MuiButton-label"
+        >
+          My Pokemons
+        </span>
+      </a>
+    </div>
+  </header>,
+  <div
+    className="pokemon-list"
+  >
+    <div>
+      <div
+        className="MuiPaper-root makeStyles-pokemonHeader-7 MuiPaper-elevation3 MuiPaper-rounded"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+          >
+            <div
+              className="makeStyles-headerImage-6"
+            >
+              <img
+                alt="pokeball"
+                src="pokeball.png"
+              />
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root makeStyles-headerInfo-8 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+          >
+            <div>
+              <h2
+                className="MuiTypography-root MuiTypography-h2 MuiTypography-colorPrimary"
+              >
+                Pokémon List
+              </h2>
+            </div>
+            <div>
+              <h4
+                className="MuiTypography-root MuiTypography-h4 MuiTypography-colorSecondary"
+              >
+                Total Owned Pokemons: 0 Pokemon
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root makeStyles-pagination-5 MuiGrid-container MuiGrid-justify-content-xs-space-evenly"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 MuiTypography-colorSecondary"
+        >
+          Show 1-0 from 0
+        </h6>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+      >
+        <nav
+          aria-label="pagination navigation"
+          className="MuiPagination-root"
+        >
+          <ul
+            className="MuiPagination-ul"
+          >
+            <li>
+              <button
+                aria-label="Go to previous page"
+                className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textSecondary Mui-disabled Mui-disabled"
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={-1}
+                type="button"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiPaginationItem-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                aria-current="true"
+                aria-label="page 1"
+                className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textSecondary Mui-selected"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                type="button"
+              >
+                1
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Go to next page"
+                className="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-textSecondary Mui-disabled Mui-disabled"
+                disabled={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={-1}
+                type="button"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root MuiPaginationItem-icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-justify-content-xs-space-between"
+    />
+  </div>,
+]
+`;
