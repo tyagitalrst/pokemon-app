@@ -90,8 +90,6 @@ function DetailOverviewInfo({ pokemon, pokemonName, collections }) {
     dataOverview = [...dataCollections, ...dataOverview];
   }
 
-  console.log(pokemon, "POKEMON");
-
   return (
     <div>
       <Paper elevation={3} className={classes.root}>
@@ -129,7 +127,11 @@ function DetailOverviewInfo({ pokemon, pokemonName, collections }) {
           </Grid>
           {dataOverview &&
             dataOverview.map((data, index) => (
-              <Grid container key={`idx-${index}-${data.value}`}>
+              <Grid
+                container
+                key={`idx-${index}-${data.value}`}
+                data-testid={`idx-${index}-${data.value}`}
+              >
                 <Grid item xs={12} md={4}>
                   <Typography variant="body1" color="secondary">
                     {data.title}
