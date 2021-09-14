@@ -13,4 +13,4 @@ Deployed app: [DEMO UI](https://focused-lewin-e2acb1.netlify.app/)
 - React with React Hooks and React Context
 - GraphQL using Apollo Client
 - UI Library using Material-UI
-- Deploy web using Github Page
+- Deploy web using Netlify
