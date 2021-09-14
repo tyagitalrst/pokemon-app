@@ -7,7 +7,7 @@ collection of the pokemon by catching the pokemon on the detail page.
 
 ## Demo UI
 
-Deployed app: [DEMO UI](https://tyagitalrst.github.io/pokemon-app/)
+Deployed app: [DEMO UI](https://focused-lewin-e2acb1.netlify.app/)
 
 ## Overview Tech Stack
 - React with React Hooks and React Context
