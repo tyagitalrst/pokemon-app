@@ -13,7 +13,7 @@ import PokemonCollectionList from "./List/PokemonCollectionList/PokemonCollectio
 
 const App = () => {
   return (
-    <Router >
+    <Router>
       <PokemonProvider>
         <ThemeProvider theme={Theme}>
           <CssBaseline />
